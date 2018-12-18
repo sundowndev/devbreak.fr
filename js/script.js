@@ -10,7 +10,7 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-readTextFile("js/data.json", function(text){
+readTextFile("/devbreak.fr/js/data.json", function(text){
     const obj = JSON.parse(text);
     console.log(obj);
 
