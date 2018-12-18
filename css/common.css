@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #373737;
+  background: #F5F6F8;
+  margin: 0;
+  font-family: "Roboto", Arial;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Raleway", Arial;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 15px;
+}
+
+a {
+  color: #373737;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #3a7adb;
+}
+
+.color-red {
+  color: #de3d3d;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header img {
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.header p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999;
+}
+
+.panel {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.panel .panel-header {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.panel .panel-header p {
+  display: inline-block;
+}
+
+.panel .panel-header .panel-header-right {
+  float: right;
+}
+
+.panel .panel-content {
+  padding: 20px;
+  background: #fff;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.panel .panel-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.panel i {
+  margin-right: 5px;
+}
+
+.panel i.arrow::before {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.panel .panel-content .panel-content-category {
+  margin-bottom: 20px;
+}
+
+.panel .panel-content .panel-content-category ul li {
+  line-height: 22px;
+}
+
+.panel .panel-content .panel-content-category ul li a {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.panel .panel-content .panel-content-category ul li span {
+  color: #999;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.panel.collapse .panel-header {
+  border-bottom-width: 0px;
+}
+
+.panel.collapse i.arrow::before {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.panel.collapse .panel-content {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+footer {
+  border-top: 1px solid #f1f1f1;
+  margin-top: 25px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer p.footer-report {
+  margin-top: 10px;
+}
+
+footer p.footer-report a {
+  font-size: 13px;
+  font-weight: 300;
+}

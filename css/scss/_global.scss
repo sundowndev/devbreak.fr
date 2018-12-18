@@ -1,0 +1,40 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $textColor;
+  background: $BodyBgColor;
+  margin: 0;
+  font-family: $fontFamilyText;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $fontFamilyTitle;
+  margin: 0;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: auto;
+  width: stretch;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 15px;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+    font-weight: 700;
+    
+    &:hover {
+        color: $linkColorHover;
+    }
+}
+
+.color-red {
+    color: $textRed;
+}

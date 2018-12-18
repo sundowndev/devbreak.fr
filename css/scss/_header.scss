@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+    
+    img {
+        margin-right: 5px;
+        vertical-align: text-bottom;
+    }
+    
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        color: $color1;
+    }
+}
