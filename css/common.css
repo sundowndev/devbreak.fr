@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -209,6 +209,10 @@ footer {
   margin-top: 25px;
   padding-top: 50px;
   text-align: center;
+}
+
+footer p {
+  margin-top: 25px;
 }
 
 footer p.footer-report {
