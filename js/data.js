@@ -303,7 +303,7 @@ const json = {
             },
             {
               title: 'cssgradient.io',
-              text: 'CSS Gradient — Generator, Maker, and Background',
+              text: 'Gradient generator, Maker, and Background',
               url: 'https://cssgradient.io/'
             },
             {
