@@ -288,6 +288,53 @@ const json = {
           ]
         }
       ]
+    },
+    {
+      name: 'Front-end',
+      icon: 'mouse',
+      categories: [
+        {
+          title: 'CSS',
+          links: [
+            {
+              title: 'caniuse.com/',
+              text: 'Browsers compatibility for CSS properties',
+              url: 'https://caniuse.com/'
+            },
+            {
+              title: 'cssgradient.io',
+              text: 'CSS Gradient — Generator, Maker, and Background',
+              url: 'https://cssgradient.io/'
+            },
+            {
+              title: 'cssmatic.com/box-shadow',
+              text: 'Box shadow CSS Generator',
+              url: 'https://www.cssmatic.com/box-shadow'
+            },
+          ]
+        },
+        {
+          title: 'Online IDE with real-time rendering',
+          links: [
+            {
+              title: 'codepen.io',
+              text: 'Online IDE with a lot of users content',
+              url: 'https://codepen.io/'
+            },
+            {
+              title: 'codesandbox.io',
+              text: 'Framework-oriented online IDE',
+              url: 'https://codesandbox.io/'
+            },
+            {
+              title: 'jsfiddle.net',
+              text: 'Online IDE with last front-end arrivals',
+              url: 'https://jsfiddle.net/'
+            },
+            
+          ]
+        }
+      ]
     }
   ]
 };
