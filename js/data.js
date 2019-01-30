@@ -335,6 +335,27 @@ const json = {
           ]
         }
       ]
+    },
+    {
+      name: 'Social & Articles',
+      icon: 'chatboxes',
+      categories: [
+        {
+          title: 'Articles',
+          links: [
+            {
+              title: 'dev.to(gether)',
+              text: 'Where programmers share ideas and help each other grow',
+              url: 'https://dev.to/'
+            },
+            {
+              title: 'medium.com',
+              text: 'Quality articles on many fields',
+              url: 'https://medium.com/'
+            }
+          ]
+        }
+      ]
     }
   ]
 };
