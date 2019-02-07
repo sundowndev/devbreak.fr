@@ -311,6 +311,11 @@ const json = {
               text: 'Box shadow CSS Generator',
               url: 'https://www.cssmatic.com/box-shadow'
             },
+            {
+              title: 'apps.eky.hk/css-triangle-generator/',
+              text: 'CSS triangle Generator',
+              url: 'http://apps.eky.hk/css-triangle-generator/'
+            },
           ]
         },
         {
@@ -332,27 +337,6 @@ const json = {
               url: 'https://jsfiddle.net/'
             },
             
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Social & Articles',
-      icon: 'chatboxes',
-      categories: [
-        {
-          title: 'Articles',
-          links: [
-            {
-              title: 'dev.to(gether)',
-              text: 'Where programmers share ideas and help each other grow',
-              url: 'https://dev.to/'
-            },
-            {
-              title: 'medium.com',
-              text: 'Quality articles on many fields',
-              url: 'https://medium.com/'
-            }
           ]
         }
       ]
