@@ -312,7 +312,7 @@ const json = {
               url: 'https://www.cssmatic.com/box-shadow'
             },
             {
-              title: 'apps.eky.hk/css-triangle-generator/',
+              title: 'apps.eky.hk/css-triangle-generator',
               text: 'CSS triangle Generator',
               url: 'http://apps.eky.hk/css-triangle-generator/'
             },
