@@ -297,7 +297,7 @@ const json = {
           title: 'CSS',
           links: [
             {
-              title: 'caniuse.com/',
+              title: 'caniuse.com',
               text: 'Browsers compatibility for CSS properties',
               url: 'https://caniuse.com/'
             },
