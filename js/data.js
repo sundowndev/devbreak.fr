@@ -311,6 +311,11 @@ const json = {
               text: 'Box shadow CSS Generator',
               url: 'https://www.cssmatic.com/box-shadow'
             },
+            {
+              title: 'apps.eky.hk/css-triangle-generator',
+              text: 'CSS triangle Generator',
+              url: 'http://apps.eky.hk/css-triangle-generator/'
+            },
           ]
         },
         {
