@@ -26,6 +26,11 @@ const json = {
               title: 'color.adobe.com',
               text: 'Create color schemes with the color wheel or browse thousands of color combinations from the Color community.',
               url: 'https://color.adobe.com/'
+            },
+            {
+              title: 'cloudflare.design',
+              text: 'A color palette tool for interface design.',
+              url: 'https://cloudflare.design/color/'
             }
           ]
         },
