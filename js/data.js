@@ -228,6 +228,11 @@ const json = {
               title: 'thenounproject.com',
               text: 'Over a million curated icons, created by a global community.',
               url: 'https://thenounproject.com/'
+            },
+            {
+                title: 'octicons.github.com',
+                text: 'Official GitHub\'s icons.',
+                url: 'https://octicons.github.com/' 
             }
           ]
         },
@@ -322,6 +327,16 @@ const json = {
               url: 'http://apps.eky.hk/css-triangle-generator/'
             },
           ]
+        },
+        {
+            title: 'JavaScript',
+            links: [
+                {
+                    title: 'keycode.info',
+                    text: 'JavaScript keyboard codes',
+                    url: 'http://keycode.info/'
+                }
+            ]
         },
         {
           title: 'Online IDE with real-time rendering',
