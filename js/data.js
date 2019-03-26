@@ -358,6 +358,21 @@ const json = {
             },
             
           ]
+        },
+        {
+          title: 'SEO',
+          links: [
+            {
+              title: 'webcode.tools',
+              text: 'SEO tags generator tools ( meta tag, Open Graph, JSON-LD',
+              url: 'https://webcode.tools/'
+            },
+            {
+              title: 'rankgen.com',
+              text: 'SEO analyzer',
+              url: 'https://rankgen.com/'
+            }
+          ]
         }
       ]
     }
