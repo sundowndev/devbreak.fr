@@ -369,7 +369,7 @@ const json = {
             },
             {
               title: 'rankgen.com',
-              text: 'SEO analyzer',
+              text: 'SEO best practices analyzer (files, social, speed, usability, security ...)',
               url: 'https://rankgen.com/'
             }
           ]
