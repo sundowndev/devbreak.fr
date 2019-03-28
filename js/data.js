@@ -364,7 +364,7 @@ const json = {
           links: [
             {
               title: 'webcode.tools',
-              text: 'SEO tags generator tools ( meta tag, Open Graph, JSON-LD',
+              text: 'Meta data code generator tools (Open Graph, JSON-LD ...)',
               url: 'https://webcode.tools/'
             },
             {
