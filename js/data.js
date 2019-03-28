@@ -358,6 +358,21 @@ const json = {
             },
             
           ]
+        },
+        {
+          title: 'SEO',
+          links: [
+            {
+              title: 'webcode.tools',
+              text: 'Meta data code generator tools (Open Graph, JSON-LD ...)',
+              url: 'https://webcode.tools/'
+            },
+            {
+              title: 'rankgen.com',
+              text: 'SEO best practices analyzer (files, social, speed, usability, security ...)',
+              url: 'https://rankgen.com/'
+            }
+          ]
         }
       ]
     }
