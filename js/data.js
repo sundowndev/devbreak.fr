@@ -375,6 +375,37 @@ const json = {
           ]
         }
       ]
+    },
+    {
+      name: 'Browser',
+      icon: 'android-globe',
+      categories: [
+        {
+          title: 'Dark themes',
+          links: [
+            {
+              title: 'Stylish Chrome/Firefox plug-in',
+              text: 'Dark theme installer using Stylish themes',
+              url: 'https://userstyles.org/help/stylish'
+            },
+            {
+              title: 'userstyles.org',
+              text: 'Themes & Skins by Stylish',
+              url: 'https://userstyles.org/'
+            },
+            {
+              title: 'Stylus Chrome/Firefox plug-in',
+              text: 'Dark theme installer based on Stylish, supporting Github themes',
+              url: 'https://add0n.com/stylus.html'
+            },
+            {
+              title: 'github.com/StylishThemes',
+              text: 'Collection of dark themes made by Github community',
+              url: 'https://github.com/StylishThemes'
+            },
+          ]
+        }
+      ]
     }
   ]
 };
