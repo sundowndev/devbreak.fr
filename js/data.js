@@ -43,11 +43,6 @@ const json = {
           title: 'Mockup',
           links: [
             {
-              title: 'threed.io',
-              text: 'Generate 3D mockups right in your browser.',
-              url: 'https://threed.io/'
-            },
-            {
               title: 'pixeden.com',
               text: 'Free web design templates.',
               url: 'https://pixeden.com/'
