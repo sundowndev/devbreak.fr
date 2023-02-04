@@ -31,6 +31,11 @@ const json = {
               title: 'cloudflare.design',
               text: 'A color palette tool for interface design.',
               url: 'https://cloudflare.design/color/'
+            },
+            {
+              title: 'branition.com',
+              text: 'Hand-curated collection of color palettes best fitted for branding.',
+              url: 'https://branition.com/colors'
             }
           ]
         },
